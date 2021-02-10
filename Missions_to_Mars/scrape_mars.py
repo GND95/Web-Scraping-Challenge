@@ -65,6 +65,6 @@ def scrape():
             browser.back() #go to the previous webpage
     nasa_data["hemisphere_images"] = hemisphere_image_urls
 
-    return nasa_data
+    browser.quit()
 
-scrape()
+    return nasa_data
