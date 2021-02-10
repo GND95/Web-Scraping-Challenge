@@ -27,6 +27,15 @@
       <img src={{mars_info.featured_image_url}} alt="Mars Picture">
       <h4>Mars Facts</h4>
       {{mars_info.table|safe}}
+      <h1><strong>Mars Hemispheres</br></strong></h1>
+      <h4>{{mars_info.hemisphere_images[0]["title"]}}</h4>
+      <img src={{mars_info.hemisphere_images[0]["img_url"]}} alt="Martian Hemisphere 1" style="width:512px;height:512px;">
+      <h4>{{mars_info.hemisphere_images[1]["title"]}}</h4>
+      <img src={{mars_info.hemisphere_images[1]["img_url"]}} alt="Martian Hemisphere 2" style="width:512px;height:512px;">
+      <h4>{{mars_info.hemisphere_images[2]["title"]}}</h4>
+      <img src={{mars_info.hemisphere_images[2]["img_url"]}} alt="Martian Hemisphere 3" style="width:512px;height:512px;">
+      <h4>{{mars_info.hemisphere_images[3]["title"]}}</h4>
+      <img src={{mars_info.hemisphere_images[3]["img_url"]}} alt="Martian Hemisphere 4" style="width:512px;height:512px;">
       </div>
     </div>
 
