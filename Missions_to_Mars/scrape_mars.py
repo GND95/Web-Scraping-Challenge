@@ -41,7 +41,6 @@ def scrape():
     df = tables[0]
 
     html_table = df.to_html() #converting the data frame into an HTML string
-    html_table = html_table.replace('\n', '') #stripping the new line characters from the HTML
     nasa_data["table"] = html_table
 
     mars_hemisphere_data = {} #dictionary to store the image URL and the title to describe which hemisphere we are seeing
